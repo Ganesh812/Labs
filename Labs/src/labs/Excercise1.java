@@ -2,26 +2,25 @@ package labs;
 
 import java.util.Scanner;
 
+import java.util.Scanner;
+
 public class Excercise1 {
-	public static void main(String[] args) {
+	static int SumCubes(int num) {
+		int sum = 0 ;
+		int rem;
+		while (num>0) {
+		rem = num % 10;
+		sum = sum+(rem*rem*rem);
+		num = num/10;
+		}
+		return sum;
+	}
 		
-		////Accept User Input in variable num
+	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Please Enter an interger - ");
 		int num = sc.nextInt();
+		System.out.println(SumCubes(num));
 		
-		///declare variables rem and sum
-		int rem,sum=0;
-		
-		///Loop over a number
-		while(num>0) {
-			rem = num%10;
-			sum= sum+(rem*rem*rem);
-			num= num/10;
-		}
-		
-		//Print Sum of cubes of digit in a number
-		System.out.println(sum);
-		sc.close();
 	}
 }
