@@ -18,6 +18,8 @@ public class Excersice2 {
 		 				break;
 		 default: System.out.println("wrong input");
 		 			
+		 	
+		 sc.close();
 		 }
 		 
 	}
