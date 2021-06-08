@@ -19,8 +19,8 @@ public class Excercise1 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Please Enter an interger - ");
-		int num = sc.nextInt();
-		System.out.println(SumCubes(num));
+		int n1 = sc.nextInt();
+		System.out.println(SumCubes(n1));
 		
 	}
 }
