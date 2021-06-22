@@ -1,4 +1,4 @@
-package labs;
+package labs1;
 
 import java.util.Scanner;
 
@@ -10,16 +10,17 @@ public class Excersice2 {
 		 String ch = sc.next();
 		 
 		 switch(ch) {
+		 
 		 case "red": System.out.println("Light is red you should STOP..!");
-		 			break;
+		 				break;
 		 case "green" : System.out.println("You can Go ..");
 		 				break;
 		 case "yellow": System.out.println("Be Ready!");
 		 				break;
 		 default: System.out.println("wrong input");
-		 			
-		 	
+		 					 	
 		 sc.close();
+		
 		 }
 		 
 	}

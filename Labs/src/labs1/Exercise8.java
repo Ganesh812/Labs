@@ -1,4 +1,4 @@
-package labs;
+package labs1;
 
 //Power of two
 import java.util.Scanner;
